@@ -13,7 +13,7 @@ body{
 	margin: 0;
 	padding: 0;
 
-	margin-top: 10%;
+	margin-top: 5%;
 }
 
 
@@ -135,7 +135,7 @@ body{
   #welcome,
      {
 		max-width: 50em;
-		margin: 0 auto;
+		margin: 0;
 	}
 	
 }
@@ -156,6 +156,7 @@ body{
 	#navigation{
 		grid-area: header;
 		margin-top: 0;
+		padding-top: 0;
 	}
 	#welcome{
 		grid-area: main;
@@ -170,14 +171,15 @@ body{
 		margin-bottom: 10px;
 	}
 	.site{
-		margin: 200px;
+		
+		margin: 80px;
 	}
 	#welcome{
 		margin-top: 0;
 		text-align: center;
 		color: white;
 		min-height: 100px;
-		padding: 50px;
+		padding: 20px;
 		margin: 0;
 	}
 	#welcome h1{
