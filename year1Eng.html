@@ -3,12 +3,12 @@
 <head>
 	<!-- Links / Meta etc ...
 	------------------------->
-	<link type="text/css" rel="stylesheet" href="css/contactstyle.css"/>
+	<link type="text/css" rel="stylesheet" href="css/year1Style.css"/>
 	<link rel="icon" type="image/jpg" href="css/images/logo.jpg" />
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contact</title>
+	<title>Year 1 Engineering</title>
+	<script src="js/scrollreveal.min.js"></script>
 	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
     <script>
       window.sr = ScrollReveal();
@@ -34,9 +34,9 @@
 			<a id="homeButton1" href="index.html"><img src="css/images/logo.jpg"/></a>
 			</div>
 		
-		
 		<!-- navigation menu
 		-------------------->
+		
 		<div id="navigation" class="w3-container w3-center w3-animate-top">
 			<a id="homeButton2" href="index.html"><img src="css/images/logo.jpg"/></a>
 			<div class="navigationButtons">
@@ -49,7 +49,7 @@
 		  </div>
 			<a class="link" href="cv.html"><li class="navbar">CV</li></a>
 			<a class="link" href="aboutMe.html"><li class="navbar">About</li></a>
-			<a class="link" href="contact.html"><li class="navbar" id="active">Contact</li></a>
+			<a class="link" href="contact.html"><li class="navbar">Contact</li></a>
 		</div>
 		</div> <!-- nav div -->
 
@@ -57,33 +57,69 @@
 		
 	
 		
+	<!-- slides -->
+	<div class="gallery">
+		
+		<div class="intro">
+		<h4 class="projectHead"><span class="orange">L</span>uxury Camping Grill Tool
+		</h4>
+		</div>
+		<h5>Here is some information, if you want more, hover over the images!</h5>
+	<br/>
+		
+		<div class="firstProject">
+		<a href="css/images/grillingTool1.jpg" target="_blank"><div class="container">
+		<img class="image" src="css/images/grillingTool1.jpg"/>
+		<div class="overlay">
+		<div class="text">Here's some text about this project, or this particular image, whichever you prefer.<br>Perhaps discuss the design process, how you came up with it etc.</div>
+  </div>
+</div></a>
+	<a href="css/images/grillingTool2.jpg" target="_blank"><div class="container2">
+		<img class="image"  src="css/images/grillingTool2.jpg"/>
+		<div class="overlay2">
+		<div class="text2">Here's some text, from the left</div>
+		</div>
+		</div></a>
+		
+		<a href="css/images/grillingTool3.jpg" target="_blank"><div class="container">
+		<img class="image"  src="css/images/grillingTool3.jpg"/>
+		<div class="overlay">
+		<div class="text">And finally text here too</div>
+		</div>
+		</div></a>
+		
+		<div class="intro">
+		<h4 class="projectHead"><span class="orange">S</span>lot Car
+		</h4>
+		</div>
+	<br/>
+		<div class="secondProject">
+		</div>
+		
+		<div class="intro">
+		<h4 class="projectHead"><span class="orange">P</span>hone Case Holder
+		</h4>
+		</div>
+	<br/>
+	<!-- gallery end div -->
+	</div>
 	
-<div class="gallery">  
-
-<h2>Get in touch!</h2>
-<h4>If you wish to make an enquiry, give me feedback (always appreciated!) or simply get to know more, please feel free to contact me at:<br/><br/>
-<div class="email">
-charlmears@gmail.com<br/><br/></div></h4>
-
-<h2>Connect with me on social media</h2>
-<h4>If you would like to see more of my work, or message me via Instagram, then you can find me here:<br/>
-<br/><span class="central"><a href="https://www.instagram.com/industrialdesignsketching.cm/">Instagram</a></span><br/>
-</h4>
-<h4>Alternatively, connect with me on Linkedin!<br/><br/>
-<span class="central"><a href="https://www.linkedin.com/in/charlotte-mears-31254b148/">Linkedin</a></span>
-</h4>
- 
-  
-</div>
+	<div class="top">
+	<a href=""><div class="fixed">
+		<h4>Back To Top</h4>
+		</div></a>
+	</div>
 		
 		
+		<!-- Social media
+		----------------->
 		<!-- Social media
 		----------------->
 		<div class="footer-social-icons">
 			
 				<p>&#169 Charlotte Mears</p>
 				
-				<li class="social-icons"><a href="https://www.instagram.com/industrialdesignsketching.cm/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+				<li class="social-icons"><a target="_blank" href="https://www.instagram.com/industrialdesignsketching.cm/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
 				<li class="social-icons"><a href="https://www.linkedin.com/in/charlotte-mears-31254b148/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
 			
 				
@@ -97,7 +133,10 @@ charlmears@gmail.com<br/><br/></div></h4>
 	
 	<!-- SCRIPTS -->
 	<script src="jquery.js"></script>
-
+	<script>
+	sr.reveal('.image', { duration: 900 });
+	</script>
+		
 
 	
 

@@ -8,7 +8,6 @@
 	<title>Charlotte Mears</title>
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
 </head>
 <body>
 
@@ -24,15 +23,49 @@
 		</div> <!-- welcome div -->
 
 		<!-- navigation menu
-		-------------------->
+		
 		<div id="navigation" class="w3-container w3-center w3-animate-top">
-
-			<a class="link" href="portfolio.html"><li class="navbar">Portfolio</li></a>
+			
+			<a class="link" href="portfolio.html"><li class="navbar" id="portfolio" >Portfolio</li></a>
+			<a class="dropdown-content" href="">Self Study</a>
+			<a class="dropdown-content" href="">Year 1 University</a>
 			<a class="link" href="cv.html"><li class="navbar">CV</li></a>
 			<a class="link" href="aboutMe.html"><li class="navbar">About Me</li></a>
-			<a class="link" href="contact.html"><li class="navbar">Contact</li></a>
+			<a class="link" href=""><li class="navbar">Contact</li></a>
 
 		</div> <!-- nav div -->
+		
+		<nav id="smallerNav" class="w3-container w3-center w3-animate-top">
+		<div class="dropdown">
+			<label for="show-menu" class="show-menu">Portfolio &#x25BD</label>
+			<input type="checkbox" id="show-menu" role="button">
+		  <div class="dropdown-content">
+		  
+			<a href="homeStudy.html">Home Study</a>			
+			<a href="year1Eng.html">Year 1 Engineering</a>
+		  </div>
+		</div>
+		<a class="navbar" href="cv.html">CV</a>
+		<a class="navbar" href="aboutMe.html">About Me</a>
+		<a class="navbar" href="contact.html">Contact</a>
+		</nav>
+		
+		<nav id="navigation" class="w3-container w3-center w3-animate-top">
+		<div class="dropdown">
+		  <a id="navbar" class="dropbtn">Portfolio &#x25BD</a>
+		  <div class="dropdown-content">
+			<a href="homeStudy.html">Home Study</a>
+			<a href="year1Eng.html">Year 1 Engineering</a>
+		  </div>
+		</div>
+		
+		
+		
+		<a class="navbar" href="cv.html">CV</a>
+		<a class="navbar" href="aboutMe.html">About Me</a>
+		<a class="navbar" href="contact.html">Contact</a>
+		</nav>
+		
 
 		<!-- Social media
 		----------------->
@@ -40,8 +73,8 @@
 			<h4 class="_14">Follow me on</h4>
 			
 				
-				<li><a target="_blank" href="https://www.instagram.com/industrialdesignsketching.cm/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
-				<li><a target="_blank" href="https://www.linkedin.com/in/charlotte-mears-31254b148/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+				<li><a href="https://www.instagram.com/industrialdesignsketching.cm/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+				<li><a href="https://www.linkedin.com/in/charlotte-mears-31254b148/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
 				
 				
 			

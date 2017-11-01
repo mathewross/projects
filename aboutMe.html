@@ -37,13 +37,18 @@
 		
 		<!-- navigation menu
 		-------------------->
-		
 		<div id="navigation" class="w3-container w3-center w3-animate-top">
 			<a id="homeButton2" href="index.html"><img src="css/images/logo.jpg"/></a>
 			<div class="navigationButtons">
-			<a id="leftLink" class="link" href="portfolio.html"><li class="navbar">Portfolio</li></a>
+			<div class="dropdown">
+			<a id="navbar" class="link" href="portfolio.html"><li id="portfolio" class="navbar">Portfolio &#x25BD</li></a>
+			<div class="dropdown-content">
+			<a id="dropdown-content" href="homeStudy.html">Home Study</a>
+			<a id="dropdown-content" href="year1Eng.html">Year 1 Engineering</a>
+		  </div>
+		  </div>
 			<a class="link" href="cv.html"><li class="navbar">CV</li></a>
-			<a class="link" href="aboutMe.html"><li id="active" class="navbar">About</li></a>
+			<a class="link" href="aboutMe.html"><li class="navbar" id="active">About</li></a>
 			<a class="link" href="contact.html"><li class="navbar">Contact</li></a>
 		</div>
 		</div> <!-- nav div -->
@@ -80,7 +85,7 @@
 		<li>I have volunteered working in the middle of the German Thuringian forrest, which was an amazing experience, I got to do construction work on an architects project while also tending to their goats, horses and chickens!</li>
 		<br/></div><br/><br/>
 		
-		<h4>Finally, if you have read this far, I would like to thank you for spending the time to visit my website and get to know a little more about me. If you would look to give me any feedback, or enquire about anything, I would be more than happy to here from you. For info on how to get in touch click <span class="links"><a href="contact.html">here</a></span><h4>
+		<h4>Finally, if you have read this far, I would like to thank you for spending the time to visit my website and get to know a little more about me. If you would look to give me any feedback, or enquire about anything, I would be more than happy to here from you, for info on how to get in touch click <span class="links"><a href="contact.html">here</a></span><h4>
 			
 
 			
@@ -106,8 +111,8 @@
 			
 				<p>&#169 Charlotte Mears</p>
 				
-				<li class="social-icons"><a target="_blank" href="https://www.instagram.com/industrialdesignsketching.cm/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
-				<li class="social-icons"><a target="_blank" href="https://www.linkedin.com/in/charlotte-mears-31254b148/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+				<li class="social-icons"><a href="https://www.instagram.com/industrialdesignsketching.cm/" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+				<li class="social-icons"><a href="https://www.linkedin.com/in/charlotte-mears-31254b148/" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
 			
 				
 			
@@ -159,6 +164,62 @@ function carousel() {
 		 
 	  }
 	  x[slideIndex-1].style.display = "block";
+	  
+	}
+	var slideIndex1 = 1;
+	showDivs1(slideIndex1);
+
+	function plusDivs1(n) {
+	  showDivs1(slideIndex1 += n);
+	}
+
+	function showDivs1(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides2");
+	  if (n > x.length) {slideIndex1 = 1}    
+	  if (n < 1) {slideIndex1 = x.length}
+	  for (i = 0; i < x.length; i++) {
+		 x[i].style.display = "none";  
+	  }
+	  x[slideIndex1-1].style.display = "block";
+	  
+	}
+	
+		var slideIndex2 = 1;
+	showDivs2(slideIndex2);
+
+	function plusDivs2(n) {
+	  showDivs2(slideIndex2 += n);
+	}
+
+	function showDivs2(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides3");
+	  if (n > x.length) {slideIndex2 = 1}    
+	  if (n < 1) {slideIndex2 = x.length}
+	  for (i = 0; i < x.length; i++) {
+		 x[i].style.display = "none";  
+	  }
+	  x[slideIndex2-1].style.display = "block";
+	  
+	}
+	
+		var slideIndex3 = 1;
+	showDivs3(slideIndex3);
+
+	function plusDivs3(n) {
+	  showDivs3(slideIndex3 += n);
+	}
+
+	function showDivs3(n) {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides4");
+	  if (n > x.length) {slideIndex3 = 1}    
+	  if (n < 1) {slideIndex3 = x.length}
+	  for (i = 0; i < x.length; i++) {
+		 x[i].style.display = "none";  
+	  }
+	  x[slideIndex3-1].style.display = "block";
 	  
 	}
 	</script>
