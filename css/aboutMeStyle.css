@@ -594,12 +594,16 @@ transition-timing-function: ease-in-out 1s;
 	
 }
 .mySlides{
+	
+	
+	max-width: 100%;
+	height: auto;
 	margin: auto;
 	text-align: center;
 	border-bottom: 1px rgba(1,1,1, 0.2) solid;
 }
 .me{
-	margin: auto;
+
 }
 .me:hover{
 	filter: none;
