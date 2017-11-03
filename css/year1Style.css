@@ -641,9 +641,7 @@ transition-timing-function: ease-in-out 1s;
 		  display:none;
 	  }
 	#homeButton1 img{
-		margin-top: 5%;
-		margin: auto;
-		width: 80px;
+		display:none;
 	}
 #homeButton2 img{
 	
