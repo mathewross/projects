@@ -91,7 +91,6 @@ h1 h2 h3 h4{
 	
 	#homeButton1{
 		margin: auto;
-		text-align: center;
 	}
 	
 	#homeButton1 img{
@@ -638,11 +637,11 @@ transition-timing-function: ease-in-out 1s;
 	filter: none;
 	transition: filter 0.6s;
 }
-	  #homeButton1{
-		  text-align: left;
-		  margin: auto;
-		  top: 10%;
-	  }
+	#homeButton1 img{
+		margin-top: 5%;
+		margin: auto;
+		width: 80px;
+	}
 #homeButton2 img{
 	
 	width: 100px;
