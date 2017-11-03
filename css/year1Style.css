@@ -765,5 +765,11 @@ background-color: rgba(56,56,56,0.7);
 	font-size: 1.6em;
 	text-align: left;
 }
+.logo{
+		display: block;
+		margin: auto;
+		text-align: center;
+		margin-top: 5%;
+	}
 }
 }
