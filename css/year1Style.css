@@ -427,9 +427,7 @@ input[type=checkbox]:checked ~ #navigation {
 		font-size: 1.1em;
 		
 	}
-	#homeButton1{
-		display: none;
-	}
+	
 	#homeButton2{
 		display: block;
 		position: absolute;
