@@ -269,9 +269,9 @@ input[type=checkbox]:checked ~ .dropdown-content {
 	.navbar:hover{
 		
 		color: rgba(247, 150, 81, 1);
-		border-bottom: solid 2px rgba(247, 150, 81, 1);
-		border-top: solid 2px rgba(247, 150, 81, 1);
-		padding: 5px;
+		border-bottom: solid 1px rgba(247, 150, 81, 1);
+		border-top: solid 1px rgba(247, 150, 81, 1);
+		
 		background: transparent;
 		transition: color 0.6s, border-top 0.6s, border-bottom 0.6s;
 	}
